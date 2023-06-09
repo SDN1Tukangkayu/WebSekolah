@@ -1,15 +1,3 @@
-/**
-* Template Name: Yummy
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -818,13 +806,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Menu Section
+# fasilitas Section
 --------------------------------------------------------------*/
-.menu .nav-tabs {
+.fasilitas .nav-tabs {
   border: 0;
 }
 
-.menu .nav-link {
+.fasilitas .nav-link {
   margin: 0 10px;
   padding: 10px 5px;
   transition: 0.3s;
@@ -837,18 +825,18 @@ section {
 }
 
 @media (max-width: 575px) {
-  .menu .nav-link {
+  .fasilitas .nav-link {
     margin: 0 10px;
     padding: 10px 0;
   }
 }
 
-.menu .nav-link i {
+.fasilitas .nav-link i {
   padding-right: 15px;
   font-size: 48px;
 }
 
-.menu .nav-link h4 {
+.fasilitas .nav-link h4 {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
@@ -856,48 +844,48 @@ section {
 }
 
 @media (max-width: 575px) {
-  .menu .nav-link h4 {
+  .fasilitas .nav-link h4 {
     font-size: 16px;
   }
 }
 
-.menu .nav-link:hover {
+.fasilitas .nav-link:hover {
   color: var(--color-primary);
 }
 
-.menu .nav-link.active {
+.fasilitas .nav-link.active {
   color: var(--color-primary);
   border-color: var(--color-primary);
 }
 
-.menu .tab-content .tab-header {
+.fasilitas .tab-content .tab-header {
   padding: 30px 0;
 }
 
-.menu .tab-content .tab-header p {
+.fasilitas .tab-content .tab-header p {
   font-size: 14px;
   text-transform: uppercase;
   color: #676775;
   margin-bottom: 0;
 }
 
-.menu .tab-content .tab-header h3 {
+.fasilitas .tab-content .tab-header h3 {
   font-size: 36px;
   font-weight: 600;
   color: var(--color-primary);
 }
 
-.menu .tab-content .menu-item {
+.fasilitas .tab-content .fasilitas-item {
   -moz-text-align-last: center;
   text-align-last: center;
 }
 
-.menu .tab-content .menu-item .menu-img {
+.fasilitas .tab-content .fasilitas-item .fasilitas-img {
   padding: 0 60px;
   margin-bottom: 15px;
 }
 
-.menu .tab-content .menu-item h4 {
+.fasilitas .tab-content .fasilitas-item h4 {
   font-size: 22px;
   font-weight: 500;
   color: var(--color-secondary);
@@ -906,26 +894,26 @@ section {
   margin-bottom: 5px;
 }
 
-.menu .tab-content .menu-item .ingredients {
+.fasilitas .tab-content .fasilitas-item .ingredients {
   font-family: var(--font-secondary);
   color: #8d8d9b;
   margin-bottom: 5px;
 }
 
-.menu .tab-content .menu-item .price {
+.fasilitas .tab-content .fasilitas-item .price {
   font-size: 24px;
   font-weight: 700;
   color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
-# Events Section
+# activity Section
 --------------------------------------------------------------*/
-.events .container-fluid {
+.activity .container-fluid {
   padding: 0;
 }
 
-.events .event-item {
+.activity .event-item {
   background-size: cover;
   background-position: cente;
   min-height: 600px;
@@ -933,19 +921,19 @@ section {
 }
 
 @media (max-width: 575px) {
-  .events .event-item {
+  .activity .event-item {
     min-height: 500px;
   }
 }
 
-.events .event-item:before {
+.activity .event-item:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
   inset: 0;
 }
 
-.events .event-item h3 {
+.activity .event-item h3 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -953,7 +941,7 @@ section {
   position: relative;
 }
 
-.events .event-item .price {
+.activity .event-item .price {
   color: #fff;
   border-bottom: 2px solid var(--color-primary);
   font-size: 32px;
@@ -962,40 +950,40 @@ section {
   position: relative;
 }
 
-.events .event-item .description {
+.activity .event-item .description {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.9);
   position: relative;
 }
 
 @media (min-width: 1200px) {
-  .events .swiper-slide-active+.swiper-slide {
+  .activity .swiper-slide-active+.swiper-slide {
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     border-right: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 1;
   }
 }
 
-.events .swiper-pagination {
+.activity .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.events .swiper-pagination .swiper-pagination-bullet {
+.activity .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: #d1d1d7;
   opacity: 1;
 }
 
-.events .swiper-pagination .swiper-pagination-bullet-active {
+.activity .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
-# Chefs Section
+# data Section
 --------------------------------------------------------------*/
-.chefs .chef-member {
+.data .guru-member {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
@@ -1004,12 +992,12 @@ section {
   transition: 0.3s;
 }
 
-.chefs .chef-member .member-img {
+.data .guru-member .member-img {
   position: relative;
   overflow: hidden;
 }
 
-.chefs .chef-member .member-img:after {
+.data .guru-member .member-img:after {
   position: absolute;
   content: "";
   left: 0;
@@ -1021,7 +1009,7 @@ section {
   z-index: 1;
 }
 
-.chefs .chef-member .social {
+.data .guru-member .social {
   position: absolute;
   right: -100%;
   top: 30px;
@@ -1032,7 +1020,7 @@ section {
   z-index: 2;
 }
 
-.chefs .chef-member .social a {
+.data .guru-member .social a {
   transition: color 0.3s;
   color: rgba(55, 55, 63, 0.4);
   margin: 15px 12px;
@@ -1041,33 +1029,33 @@ section {
   text-align: center;
 }
 
-.chefs .chef-member .social a:hover {
+.data .guru-member .social a:hover {
   color: rgba(55, 55, 63, 0.9);
 }
 
-.chefs .chef-member .social i {
+.data .guru-member .social i {
   font-size: 18px;
 }
 
-.chefs .chef-member .member-info {
+.data .guru-member .member-info {
   padding: 10px 15px 20px 15px;
 }
 
-.chefs .chef-member .member-info h4 {
+.data .guru-member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: var(--color-secondary);
 }
 
-.chefs .chef-member .member-info span {
+.data .guru-member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
   color: rgba(33, 37, 41, 0.4);
 }
 
-.chefs .chef-member .member-info p {
+.data .guru-member .member-info p {
   font-style: italic;
   font-size: 14px;
   padding-top: 15px;
@@ -1075,131 +1063,14 @@ section {
   color: rgba(33, 37, 41, 0.7);
 }
 
-.chefs .chef-member:hover {
+.data .guru-member:hover {
   transform: scale(1.08);
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
 }
 
-.chefs .chef-member:hover .social {
+.data .guru-member:hover .social {
   right: 8px;
   opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Book A Table Section
---------------------------------------------------------------*/
-.book-a-table .reservation-img {
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-}
-
-.book-a-table .reservation-form-bg {
-  background: rgba(55, 55, 63, 0.04);
-}
-
-.book-a-table .php-email-form {
-  padding: 40px;
-}
-
-@media (max-width: 575px) {
-  .book-a-table .php-email-form {
-    padding: 20px;
-  }
-}
-
-.book-a-table .php-email-form h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.book-a-table .php-email-form h4 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 20px 0 0 0;
-}
-
-.book-a-table .php-email-form p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.book-a-table .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.book-a-table .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
-}
-
-.book-a-table .php-email-form input,
-.book-a-table .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 0;
-}
-
-.book-a-table .php-email-form input:focus,
-.book-a-table .php-email-form textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.book-a-table .php-email-form input {
-  padding: 12px 15px;
-}
-
-.book-a-table .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.book-a-table .php-email-form button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 14px 60px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
 }
 
 @keyframes animate-loading {
@@ -1399,9 +1270,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Home Section
 --------------------------------------------------------------*/
-.hero {
+.home {
   width: 100%;
   background-size: cover;
   position: relative;
@@ -1409,7 +1280,7 @@ section {
   padding: 160px 0 60px 0;
 }
 
-.hero h2 {
+.home h2 {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1417,17 +1288,17 @@ section {
   font-family: var(--font-primary);
 }
 
-.hero h2 span {
+.home h2 span {
   color: var(--color-primary);
 }
 
-.hero p {
+.home p {
   color: #4f4f5a;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.hero .btn-book-a-table {
+.home .btn-book-a-table {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1440,12 +1311,12 @@ section {
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
 
-.hero .btn-book-a-table:hover {
+.home .btn-book-a-table:hover {
   background: rgba(206, 18, 18, 0.8);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
-.hero .btn-watch-video {
+.home .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -1453,7 +1324,7 @@ section {
   font-weight: 600;
 }
 
-.hero .btn-watch-video i {
+.home .btn-watch-video i {
   color: var(--color-primary);
   font-size: 32px;
   transition: 0.3s;
@@ -1461,21 +1332,21 @@ section {
   margin-right: 8px;
 }
 
-.hero .btn-watch-video:hover {
+.home .btn-watch-video:hover {
   color: var(--color-primary);
 }
 
-.hero .btn-watch-video:hover i {
+.home .btn-watch-video:hover i {
   color: rgba(206, 18, 18, 0.8);
 }
 
 @media (max-width: 640px) {
-  .hero h2 {
+  .home h2 {
     font-size: 36px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+  .home .btn-get-started,
+  .home .btn-watch-video {
     font-size: 14px;
   }
 }
